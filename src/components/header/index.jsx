@@ -101,7 +101,7 @@ const Header = () => {
                       >
                         <p>DRAPINGS</p>
                       </Link>
-                      {/* <Link
+                      <Link
                         to="/shoot"
                         onClick={() => setDesktopMenuOpen(false)}
                         className="group relative flex items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
@@ -114,7 +114,21 @@ const Header = () => {
                         className="group relative flex items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
                       >
                         <p>SKETCHES</p>
-                      </Link> */}
+                      </Link>
+                      <Link
+                        to="/creations"
+                        onClick={() => setDesktopMenuOpen(false)}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
+                      >
+                        <p>CREATIONS</p>
+                      </Link>
+                      <Link
+                        to="/fabric-swatches"
+                        onClick={() => setDesktopMenuOpen(false)}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
+                      >
+                        <p>FABRIC SWATCHES</p>
+                      </Link>
                     </div>
                   </PopoverPanel>
                 )}
@@ -196,7 +210,7 @@ const Header = () => {
                       >
                         <p>DRAPINGS</p>
                       </Link>
-                      {/* <Link
+                      <Link
                         to="/shoot"
                         onClick={() => setMobileMenuOpen(false)}
                         className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
@@ -209,7 +223,21 @@ const Header = () => {
                         className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
                       >
                         <p>SKETCHES</p>
-                      </Link> */}
+                      </Link>
+                      <Link
+                        to="/creations"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
+                      >
+                        <p>CREATIONS</p>
+                      </Link>
+                      <Link
+                        to="/fabric-swatches"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-[#ece8e4]"
+                      >
+                        <p>FABRIC SWATCHES</p>
+                      </Link>
                     </DisclosurePanel>
                   </Disclosure>
                 </div>

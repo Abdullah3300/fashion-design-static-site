@@ -8,6 +8,8 @@ import Boards from "./pages/Boards";
 import Illustrations from "./pages/Illustrations";
 import Shoot from "./pages/Shoot";
 import Sketches from "./pages/Sketches";
+import Creations from "./pages/Creations";
+import FabricSwatches from "./pages/FabricSwatches";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/drapings" element={<Drapings />} />
         <Route path="/shoot" element={<Shoot />} />
         <Route path="/sketches" element={<Sketches />} />
+        <Route path="/creations" element={<Creations />} />
+        <Route path="/fabric-swatches" element={<FabricSwatches />} />
       </Routes>
       <Footer />
     </div>
