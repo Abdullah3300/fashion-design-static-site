@@ -17,10 +17,10 @@ const Illustrations = () => {
             <span className="text-xl">
               <FaQuoteRight />
             </span>
-          </h3>
+          </h3> 
         </div>
         <div className="mt-12 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-          {Array.from({ length: 18 }).map((item, index) => (
+          {Array.from({ length: 30 }).map((item, index) => (
             <div className="shadow-lg" key={index}>
               <img
                 src={`/Images/Illustrations/image${index + 1}.jpg`}
